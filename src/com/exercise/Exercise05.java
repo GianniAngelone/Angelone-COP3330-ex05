@@ -16,9 +16,6 @@ class Exercise05 {
         int a = Integer.parseInt(Number1);
         int b = Integer.parseInt(Number2);
         //Last we print the calculations.
-        System.out.println(String.format("%d + %d = %d", a,b, a+b));
-        System.out.println(String.format("%d - %d = %d", a,b, a-b));
-        System.out.println(String.format("%d * %d = %d", a,b, a*b));
-        System.out.println(String.format("%d / %d = %d", a,b, a/b));
+        System.out.println(a + " + " + b + " = " + (a+b) + "\r\n" + a + " - " + b + " = " + (a-b) + "\r\n" + a + " * " + b + " = " + (a*b) + "\r\n" + a + " / " + b + " = " + (a/b));
     }
 }
